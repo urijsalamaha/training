@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 154 42" width="154" height="42">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #202b30 } 
+		.txt1 { font-size: 36px;line-height: 100px;fill: #ffffff;font-weight: 900;font-family: "SourceSansPro-Black", "Source Sans Pro";text-anchor: middle } 
+		.txt2 { font-size: 16px;line-height: 100px;fill: #ffffff;font-weight: 500;font-family: "Roboto-Medium", "Roboto";text-anchor: middle } 
+	</style>
+	<g id="footer">
+		<g id="bg">
+			<path id="Rectangle 12" class="shp0" d="M-288 2256L1632 2256L1632 2494L-288 2494L-288 2256Z" />
+		</g>
+		<g id="logo">
+			<text id="Kallyas." style="transform: matrix(1,0,0,1,84,2382)" >
+				<tspan x="0" y="0" class="txt1">Kallyas.</tspan>
+			</text>
+		</g>
+		<g id="menu">
+			<text id="Главная" style="transform: matrix(1,0,0,1,972,2378)" >
+				<tspan x="0" y="0" class="txt2">Главная</tspan>
+			</text>
+			<text id="Услуги" style="transform: matrix(1,0,0,1,1083,2378)" >
+				<tspan x="0" y="0" class="txt2">Услуги</tspan>
+			</text>
+			<text id="О нас" style="transform: matrix(1,0,0,1,1180,2378)" >
+				<tspan x="0" y="0" class="txt2">О нас</tspan>
+			</text>
+			<text id="Контакты" style="transform: matrix(1,0,0,1,1293,2378)" >
+				<tspan x="0" y="0" class="txt2">Контакты</tspan>
+			</text>
+		</g>
+	</g>
+	<g id="header">
+		<g id="logo">
+			<text id="Kallyas." style="transform: matrix(1,0,0,1,83,30)" >
+				<tspan x="0" y="0" class="txt1">Kallyas.</tspan>
+			</text>
+		</g>
+		<g id="menu">
+			<text id="Главная" style="transform: matrix(1,0,0,1,996,26)" >
+				<tspan x="0" y="0" class="txt2">Главная</tspan>
+			</text>
+			<text id="Услуги" style="transform: matrix(1,0,0,1,1097,26)" >
+				<tspan x="0" y="0" class="txt2">Услуги</tspan>
+			</text>
+			<text id="Слой 153" style="transform: matrix(1,0,0,1,1386,82)" >
+			</text>
+			<text id="О нас" style="transform: matrix(1,0,0,1,1187,26)" >
+				<tspan x="0" y="0" class="txt2">О нас</tspan>
+			</text>
+			<text id="Слой 155" style="transform: matrix(1,0,0,1,1461,82)" >
+			</text>
+			<text id="Контакты" style="transform: matrix(1,0,0,1,1284,26)" >
+				<tspan x="0" y="0" class="txt2">Контакты</tspan>
+			</text>
+		</g>
+	</g>
+</svg>
