@@ -3,6 +3,7 @@
   grid-template-columns: repeat(18, 90px);
   grid-template-rows: auto;
   grid-column-gap: 20px;
+  background-color: white;
 }
 .header {
   display: grid;
@@ -119,16 +120,106 @@
 .feature_grid div:nth-child(1) {
   grid-row: 1/2;
   grid-column: 1/2;
+  padding-top: 75px;
+  padding-left: 55px;
 }
 .feature_grid div:nth-child(2) {
   grid-row: 2/3;
   grid-column: 1/2;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 45px;
+  padding-left: 55px;
+}
+.feature_grid div hr {
+  width: 50px;
+  margin-left: 0px;
+  margin-top: 37px;
 }
 .feature_grid div:nth-child(3) {
   grid-row: 3/4;
   grid-column: 1/2;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5rem;
+  padding-top: 0px;
+  padding-left: 55px;
 }
-.feature_grid div {
+.contant {
   display: flex;
+  flex-direction: column;
   align-items: center;
+  grid-row: 3/4;
+  grid-column: 4/16;
+}
+.contant p:nth-child(1) {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-size: 60px;
+  font-weight: 500;
+  padding-top: 110px;
+  padding-bottom: 60px;
+}
+.contant p span {
+  color: #fb414d;
+}
+.contant p:nth-child(2),
+.contant p:nth-child(3) {
+  font-family: "Roboto", sans-serif;
+  color: #838383;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5rem;
+}
+.services {
+  grid-row: 4/5;
+  grid-column: 4/16;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-column-gap: 20px;
+  padding-top: 130px;
+}
+.services div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.services div p:nth-child(2) {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-size: 32px;
+  font-weight: 700;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.services div p:nth-child(3),
+.services div p:nth-child(4),
+.services div p:nth-child(5) {
+  font-family: "Roboto", sans-serif;
+  color: #838383;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5rem;
+}
+.footer {
+  display: grid;
+  grid-template-columns: repeat(18, 90px);
+  grid-template-rows: 240px;
+  grid-column-gap: 20px;
+  grid-row: 5/6;
+  grid-column: 1 / 19;
+  background-color: #1f2b2f;
+  align-items: center;
+  margin-top: 175px;
+}
+.footer .logo img {
+  padding-top: 0px;
+}
+.footer .menu .menu_items span {
+  padding-top: 0px;
 }
